@@ -1,0 +1,31 @@
+/* Reset */
+* {
+    box-sizing : border-box;
+    margin : 0;
+    padding : 0;
+}
+/* Variables */
+:root {
+    --main-font-color : rgb(255, 255, 255);
+    --main-background-color : rgb(0, 0, 0);
+}
+/* Body */
+body {
+    color : var(--main-font-color);
+    background-color : var(--main-background-color);
+}
+/* Container */
+#container {
+    width : 100vw;
+    height : 100vh;
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+    align-items : center;
+}
+/* Content */
+#content {
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : 30px;
+    font-weight : 700;
+}
